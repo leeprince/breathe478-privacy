@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Feature Graphic</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #333; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    .banner {
+      width: 1024px;
+      height: 500px;
+      background: #4DB6AC;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+    /* 背景装饰圆圈 */
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      border: 3px solid rgba(255,255,255,0.15);
+    }
+    .circle-1 { width: 600px; height: 600px; top: -50px; left: -100px; }
+    .circle-2 { width: 400px; height: 400px; bottom: -80px; right: -60px; }
+    .circle-3 { width: 200px; height: 200px; top: 60px; right: 120px; border-color: rgba(255,255,255,0.1); }
+    /* 文字 */
+    .title {
+      font-family: -apple-system, "Microsoft YaHei", sans-serif;
+      font-size: 96px;
+      font-weight: 300;
+      color: white;
+      letter-spacing: 16px;
+      z-index: 1;
+    }
+    .subtitle {
+      font-family: -apple-system, "Microsoft YaHei", sans-serif;
+      font-size: 28px;
+      font-weight: 300;
+      color: rgba(255,255,255,0.85);
+      margin-top: 20px;
+      letter-spacing: 4px;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+    <div class="circle circle-3"></div>
+    <div class="title">深呼吸</div>
+    <div class="subtitle">4-7-8 · 方块呼吸 · 深呼吸</div>
+  </div>
+</body>
+</html>
