@@ -95,7 +95,7 @@ breathe478/
    ```bash
    flutter --version
    ```
-   如果未安装，参考项目根目录的 [docs/flutter-android-setup-guide.md](../docs/flutter-android-setup-guide.md)。
+   如果未安装，参考项目根目录的 [docs/flutter-android-setup-guide.md](./docs/flutter-android-setup-guide.md)。
 
 2. **运行健康检查**
    ```bash
@@ -220,7 +220,7 @@ flutter build appbundle --release
 
 产物：`build/app/outputs/bundle/release/app-release.aab`
 
-> 上架 Play Store 需要先配置签名密钥。详见项目计划文档 [docs/superpowers/plans/2026-05-14-breathing-app.md](../docs/superpowers/plans/2026-05-14-breathing-app.md) 的 Task 11。
+> 上架 Play Store 需要先配置签名密钥。详见项目计划文档 [docs/superpowers/plans/2026-05-14-breathing-app.md](./docs/plans/2026-05-14-breathing-app.md) 的 Task 11。
 
 ### Web
 
