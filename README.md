@@ -220,7 +220,7 @@ flutter build appbundle --release
 
 产物：`build/app/outputs/bundle/release/app-release.aab`
 
-> 上架 Play Store 需要先配置签名密钥。详见项目计划文档 [docs/superpowers/plans/2026-05-14-breathing-app.md](./docs/plans/2026-05-14-breathing-app.md) 的 Task 11。
+> 上架 Play Store 需要先配置签名密钥。详见项目计划文档 [docs/2026-05-14-breathing-app.md](./docs/2026-05-14-breathing-app.md) 的 Task 11。
 
 ### Web
 
@@ -303,7 +303,7 @@ $content = "storePassword=xxx`nkeyPassword=xxx`nkeyAlias=xxx`nstoreFile=E:/path/
 ## 项目文档
 
 - [开发环境搭建指南](./docs/flutter-android-setup-guide.md) — 从零搭建 Flutter + Android 开发环境
-- [完整实现计划（含上架步骤）](./docs/plans/2026-05-14-breathing-app.md) — 14 个任务的详细执行清单
+- [完整实现计划（含上架步骤）](./docs/2026-05-14-breathing-app.md) — 14 个任务的详细执行清单
 - [版本变更记录](./CHANGELOG.md)
 
 ## 健康提示
