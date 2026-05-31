@@ -302,8 +302,8 @@ $content = "storePassword=xxx`nkeyPassword=xxx`nkeyAlias=xxx`nstoreFile=E:/path/
 
 ## 项目文档
 
-- [开发环境搭建指南](../docs/flutter-android-setup-guide.md) — 从零搭建 Flutter + Android 开发环境
-- [完整实现计划（含上架步骤）](../docs/superpowers/plans/2026-05-14-breathing-app.md) — 14 个任务的详细执行清单
+- [开发环境搭建指南](./docs/flutter-android-setup-guide.md) — 从零搭建 Flutter + Android 开发环境
+- [完整实现计划（含上架步骤）](./docs/plans/2026-05-14-breathing-app.md) — 14 个任务的详细执行清单
 - [版本变更记录](./CHANGELOG.md)
 
 ## 健康提示
